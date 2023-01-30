@@ -1,0 +1,12 @@
+total=int(input("Enter the total users"))
+staff_users=int(input("Enter the staff users"))
+non_teaching=staff_users/3
+student_users=total-(staff_users+non_teaching)
+n=int(student_users)
+while staff_users <=0:
+  print("enter a positive number")
+  break
+if(total <= 0):
+  print("enter a positive number")
+else:
+  print(n)
